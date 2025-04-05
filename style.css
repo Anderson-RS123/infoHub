@@ -1,0 +1,147 @@
+* {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+body{
+    background-color: black;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.firstSection{
+    display: flex;
+    background: url('img/banner-image.png') no-repeat;
+    align-items: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.titulo_pagina{
+    color: white;
+    text-align: start;
+    font-size: 9vh;
+}
+
+.titulo_descricao{
+    color: white;
+    font-size: 4vh;
+}
+
+.botao_1_secao{
+    color: white;
+    font-weight: 900;
+    font-size: 6vh;
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 40px;
+}
+
+.alinha_texto{
+    display: flexbox;
+    justify-content: flex-start;
+    padding-right: 50%;
+    padding-left: 10%;
+}
+
+
+
+.secondSection{
+    color: white;
+    background-size: cover;
+    height: 100vh;
+}
+
+.alinha_imagens{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.secondSection h2{
+    font-size: 7vh;
+    border-left: 1vh solid red;
+    padding-left: 3vh;
+    padding-top: 2vh;
+}
+
+.descricao_personagens{
+    padding-right: 4vh;
+    text-align:center;
+    font-size: 2vh ; 
+    margin-top: 1vh;   
+}
+
+
+
+.form-section {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('img/banner-image-2.png') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.form-section h2 {
+    font-size: 32px;
+    text-align: center;
+    border-bottom: 3px solid #FF0000;
+    margin-bottom: 40px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    font-weight: bold;
+}
+
+.form input,
+.form textarea {
+    width: 80%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    background-color: white;
+    color: #0A0A0A;
+    border-radius: 5px;
+    border: none;
+}
+
+.botao_enviar{
+    color: black;
+    font-size: 3vh;
+}
+
+
+
+
+
+.fourthSection{
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.descricao_quarta_secao{
+    font-size: 5vh;
+    text-align: center;
+    padding-top: 10vh;
+    padding: 10vh 20vh 10vh 20vh;
+}
+
+.botao_saiba_mais{
+    color: black;
+    background-color: red;
+    font-size: 5vh;
+}
