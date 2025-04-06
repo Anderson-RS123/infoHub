@@ -1,4 +1,4 @@
-Trago para você, leitor, o desenvolvimento de um site web fictício da Marvel. 
+Trago para você, leitor, o desenvolvimento de um site web fictício. 
 
 Esse site foi desenvolvido no programa InfoHub, da Antonio Meneghatti Faculdade, no cusrso "Construindo seu site com HTML e CSS".
 
